@@ -1,8 +1,7 @@
 # Projeto App de Receitas
 
-Projeto desenvolvido pelo nosso time, aplicando tecnologias modernas e boas práticas de desenvolvimento. O app de receitas foi construído com as seguintes tecnologias:
+Projeto desenvolvido com a aplicação de tecnologias modernas e boas práticas de desenvolvimento:
 
-- **Tecnologias Aplicadas:**
   - React Context API
   - React Hooks
   - TypeScript
@@ -17,7 +16,7 @@ Projeto desenvolvido pelo nosso time, aplicando tecnologias modernas e boas prá
 
 O app de receitas é uma aplicação web que permite aos usuários visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks. Através da integração com duas API's distintas, uma para comidas e outra para bebidas, oferecemos uma ampla variedade de opções culinárias para explorar.
 
-O projeto foi desenvolvido utilizando as mais modernas tecnologias do ecossistema React, como React Context API e React Hooks, proporcionando uma experiência interativa e fluida aos usuários.
+A utilização de modernas tecnologias do ecossistema React, como React Context API e React Hooks, proporciona uma experiência interativa e fluida aos usuários.
 
 ## Funcionalidades
 
@@ -40,10 +39,10 @@ O projeto foi desenvolvido utilizando as mais modernas tecnologias do ecossistem
 
 ## Como Executar o Projeto
 
-1. Clone este repositório.
+1. Clone este repositório e acesse o diretório principal do projeto.
 2. Instale as dependências utilizando `npm install` e `npm run install:apps`.
 3. Inicie os containers dos serviços Front-end, Back-end e Banco de Dados utilizando `npm run compose:up`.
-5. Inicie a aplicação com `npm start`.
+5. Acesse a URL [http://localhost:3000](http://localhost:3000) em seu browser.
 
 ## Contribuições
 
