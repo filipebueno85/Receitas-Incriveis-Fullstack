@@ -60,7 +60,3 @@ Aceitamos contribuições e feedbacks construtivos. Sinta-se à vontade para abr
 ## Contato
 
 Em caso de dúvidas ou interesse em saber mais sobre o projeto, entre em contato conosco. Estamos abertos a discussões e oportunidades de colaboração.
-
-**Equipe do Projeto de Desenvolvimento de App de Receitas**
-=======
-# Receitas Incriveis Fullstack
