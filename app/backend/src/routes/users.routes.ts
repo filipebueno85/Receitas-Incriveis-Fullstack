@@ -9,7 +9,7 @@ const userRouter = Router();
 // userRouter.get(
 //   '/login/role',
 //   Validate.validateToken,
-//   (req: Request, res: Response) => UserController.loginRoleF(req, res)
+//  (req: Request, res: Response) => UserController.loginRoleF(req, res)
 // );
 
 userRouter.post(
