@@ -11,7 +11,8 @@
             "ignoreComments": true,
             "ignoreUrls": true,
             "ignoreRegExpLiterals": true,
-            "ignoreStrings": true
+            "ignoreStrings": true,
+           " ignorecommentss": true
           }
         ],
         "max-lines": [ "off" ],
