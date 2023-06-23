@@ -1,0 +1,765 @@
+* {
+  box-sizing: border-box;
+  font-family: Stella Nova , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(234, 233, 233);
+}
+
+/* --------------------------------- LOGIN ------------------------------- */
+
+/* stylelint-disable-next-line rule-empty-line-before */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(234, 233, 233);
+}
+
+.login-page {
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(234, 233, 233);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-page h1 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.login-page input {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: rgb(234, 233, 233);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-page button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-page button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.login-page img {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.login-page p {
+  margin-top: 10px;
+}
+
+.login-page button.register-link {
+  background-color: transparent;
+  border: none;
+  color: #4caf50;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-page button.register-link:hover {
+  color: #45a049;
+}
+
+.search-container button {
+  background-color: rgb(83, 38, 22);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: Stella Nova , sans-serif;
+  height: 30px;
+  width: 80px;
+}
+
+.header-profile button {
+  background-color: rgb(83, 38, 22, 0);
+  border: none;
+}
+
+/* .login-page button {
+  background-color: rgb(83, 38, 22, 0.1);
+  border: none;
+  border-radius: 4px;
+  font-family: Salazar , sans-serif;
+  width: 60px;
+} */
+
+.done-container button {
+  background-color: rgb(234, 233, 233);
+  border: 2px solid rgb(83, 38, 22);
+  border-radius: 100px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+}
+
+.done-cards button {
+  background-color: white;
+  border: none;
+  box-shadow: none;
+  width: 20px;
+}
+
+.favorite-cards button {
+  background-color: white;
+  border: none;
+  box-shadow: none;
+}
+
+.profile-container button {
+  background-color: rgb(83, 38, 22);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: Stella Nova , sans-serif;
+  height: 50px;
+  width: 100px;
+}
+
+.login-page button:hover {
+  color: rgb(114, 57, 36);
+}
+
+/* --------------------------------- RECIPE DETAILS ------------------------------- */
+.details-container {
+  background-color: rgb(234, 233, 233);
+  color: rgb(83, 38, 22);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-recipe {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px;
+}
+
+.header-recipe img {
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+}
+
+.header-recipe h1 {
+  font-family: Salazar , sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.detail-category {
+  font-family: Salazar , sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.text-details {
+  padding: 20px;
+}
+
+iframe {
+  padding: 20px;
+}
+
+.share-button {
+  border: none;
+}
+
+.share-button img {
+  width: 50px;
+}
+
+.details-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.ingreients-container {
+  padding: 20px;
+}
+
+.ingreients-container label {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.start-contiue-buttons {
+  background-color: rgb(83, 38, 22);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: Stella Nova , sans-serif;
+  height: 40px;
+  width: 100%;
+}
+
+.finish-button {
+  background-color: rgb(83, 38, 22);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: Stella Nova , sans-serif;
+  height: 40px;
+  width: 100%;
+}
+
+/* --------------------------------- header ------------------------------- */
+header {
+  background-color: rgb(234, 233, 233);
+  display: flex;
+  flex-direction: column;
+}
+
+.header-profile {
+  align-items: center;
+  display: flex;
+  font-family: Salazar , sans-serif;
+  justify-content: space-between;
+}
+
+.header-profile h1 {
+  color: rgb(83, 38, 22);
+  font-family: Salazar , sans-serif;
+  font-size: 3em;
+}
+
+.search-button {
+  background-color: rgb(83, 38, 22, 0);
+  border: none;
+  margin-bottom: 10px;
+}
+
+.search-container {
+  align-items: center;
+  background-color: rgb(234, 233, 233);
+  color: rgb(83, 38, 22);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-container input {
+  background-color: rgb(83, 38, 22, 0.1);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.search-container button:hover {
+  color: rgb(210, 181, 171);
+}
+
+.search-options {
+  display: flex;
+  gap: 10px;
+}
+
+.search-options label input {
+  margin: 8px;
+}
+
+.header-title {
+  color: rgb(83, 38, 22);
+  font-family: Salazar , sans-serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+.category-button {
+  border: 2px solid rgb(83, 38, 22);
+  border-radius: 100px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+  color: rgb(83, 38, 22);
+  font-family: Salazar , sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.filters-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(83, 38, 22);
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+
+.filters-container select {
+  border-radius: 5px;
+  height: 35px;
+  width: 150px;
+  background-color: rgb(83, 38, 22, 0.1);
+  font-size: 13px;
+  text-align: center;
+}
+
+.result-total {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.recipes-container {
+  background-color: rgb(234, 233, 233);
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.recipes-container a {
+  color: rgb(83, 38, 22);
+  text-decoration: none;
+}
+
+.result-card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  gap: 5px;
+  justify-content: center;
+  margin: 5px;
+  min-height: 300px;
+  padding: 10px;
+  width: 150px;
+}
+
+.result-card img {
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+}
+
+.result-card p {
+  background-color: rgb(234, 233, 233);
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+/* ------------------------- FOOTER ----------------------------- */
+footer {
+  background-color: rgb(234, 233, 233);
+}
+
+.footer-container {
+  align-items: center;
+  background-color: rgb(234, 233, 233);
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.carousel-container {
+  background-color: rgb(234, 233, 233);
+  color: rgb(83, 38, 22);
+  display: flex;
+  margin-bottom: 50px;
+  overflow-x: scroll;
+  width: 360px;
+}
+
+.carousel-card {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  gap: 10px;
+  margin: 5px;
+  max-height: 250px;
+  min-width: 175px;
+  padding: 10px;
+}
+
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+/* --------------------------------- Done Recipes ------------------------------- */
+.done-container {
+  align-items: center;
+  background-color: rgb(234, 233, 233);
+  display: flex;
+  flex-direction: column;
+}
+
+.done-buttons {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.done-cards {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+  margin: 10px;
+  min-height: 500px;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.done-cards img {
+  align-self: center;
+}
+
+.done-un-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.done-un-card h4 {
+  text-align: center;
+}
+
+.done-cards a {
+  color: rgb(83, 38, 22);
+  text-decoration: none;
+}
+
+/* --------------------------------- Done Recipes ------------------------------- */
+.favorite-butttons {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.favorite-cards {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.fav-card-img {
+  box-shadow: 3px 2px 2px 1px rgba(34, 20, 15, 0.5);
+}
+
+.favorite-cards a {
+  color: rgb(83, 38, 22);
+  text-decoration: none;
+}
+
+/* --------------------------------- Done Recipes ------------------------------- */
+.profile-container {
+  color: rgb(83, 38, 22);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+
+.profile-buttons {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and ( min-width : 600px ) {
+
+  .login-container {
+    background-color: rgb(234, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-page {
+    border: 2px solid rgb(83, 38, 22);
+    border-radius: 10px;
+    gap: 5px;
+    height: auto;
+    width: 400px;
+    padding: 30px;
+  }
+
+  .login-page img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .login-page h1 {
+    color: rgb(83, 38, 22);
+    font-family: Salazar, sans-serif;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+  }
+
+  .login-page button.register-link {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .header-profile {
+    justify-content: space-evenly;
+  }
+
+  .result-total {
+    flex-flow: wrap;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
+
+  .recipes-container {
+    flex-flow: wrap;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .detail-category {
+    margin-left: 80px;
+  }
+
+  .ingredients-list {
+    margin: 80px;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-container {
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .carousel-card {
+    flex-direction: row;
+  }
+
+  .profile-container {
+    align-items: center;
+  }
+
+  .footer-container {
+    align-items: center;
+    justify-content: start;
+  }
+}
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+
+/* @media screen and ( min-width : 600px ) {
+
+  .login-container {
+    background-color: rgb(234, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-page {
+    border: 2px solid rgb(83, 38, 22);
+    border-radius: 10px;
+    gap: 5px;
+    height: auto;
+    width: 400px;
+    padding: 30px;
+  }
+
+  .login-page img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .login-page h1 {
+    color: rgb(83, 38, 22);
+    font-family: Salazar, sans-serif;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+  }
+
+  .login-page button.register-link {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .header-profile {
+    justify-content: space-evenly;
+  }
+
+  .result-total {
+    flex-flow: wrap;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
+
+  .recipes-container {
+    flex-flow: wrap;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .detail-category {
+    margin-left: 80px;
+  }
+
+  .ingredients-list {
+    margin: 80px;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-container {
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .carousel-card {
+    flex-direction: row;
+  }
+
+  .profile-container {
+    align-items: center;
+  }
+
+  .footer-container {
+    align-items: center;
+    justify-content: start;
+  }
+}
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+} */

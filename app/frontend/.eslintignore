@@ -1,0 +1,4 @@
+src/serviceWorker.js 
+cypress.config.js
+coverage/*
+src/App.css
